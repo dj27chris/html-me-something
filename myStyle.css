@@ -1,0 +1,39 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("images/dots.tif")
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.images {
+  display: flex;
+}
+
+.img1 { flex: 1.3470; }
+.img2 { flex: 0.9861; }
+.img3 { flex: 0.8600; }
+.img4 { flex: 0.7859; }
+.img5 { flex: 0.8028; }
+
+.images {
+  margin: 25px 0;
+}
+
+.images > div:not(:last-child) {
+  margin-right: 2%;
+}
+
+.container{
+    background: white;
+    margin: 0 auto;
+    padding: 5%;
+    width: 75%;
+}
