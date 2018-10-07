@@ -14,7 +14,13 @@ header {
     padding: 1% 2% 1% 2%;
     width: 95%;
 }
-h1, h2 {
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    margin: 0%;
+}
+
+h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 43px;
 }
@@ -130,3 +136,14 @@ table.blueTable tfoot .links a{
   color: #FFFFFF;
   padding: 2px 8px;
   border-radius: 5px;
+
+#travel {
+  border: solid 4px black;
+  margin-top: 4%;
+
+    
+  }
+
+  h2 {
+      border: solid;
+  }
