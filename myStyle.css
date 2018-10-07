@@ -8,6 +8,20 @@ body {
     background-image: url("images/dots.tif")
 }
 
+header {
+    background-color:#5bccc4;
+    margin: 0% 0 0 0;
+    padding: 1% 2% 1% 2%;
+    width: 95%;
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 43px;
+}
+h3, p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -22,6 +36,11 @@ img {
 .img3 { flex: 0.8600; }
 .img4 { flex: 0.7859; }
 .img5 { flex: 0.8028; }
+.img6 { flex: 1.3333; }
+.img7 { flex: 0.9015; }
+.img8 { flex: 1.0956; }
+.img9 { flex: 0.75; }
+.img10 { flex: 1.0; }
 
 .images {
   margin: 25px 0;
@@ -34,6 +53,80 @@ img {
 .container{
     background: white;
     margin: 0 auto;
-    padding: 5%;
+    padding: 1%;
     width: 75%;
 }
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  table.blueTable {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border: 1px solid #23B800;
+  background-color: #5BCCC4;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 3px solid #F0F0F0;
+  padding: 3px 5px;
+}
+table.blueTable tbody td {
+  font-size: 14px;
+  color: #4E5454;
+}
+table.blueTable tr:nth-child(even) {
+  background: #E39FE3;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
